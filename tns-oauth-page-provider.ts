@@ -30,6 +30,7 @@ export class TnsOAuthPageProvider {
 
         let page = new Page();
         page.content = stack;
+        page.actionBarHidden = true;
 
         wv.url = this._authUrl;
 
